@@ -9,12 +9,12 @@
 </head>
 <body>
     <header class="container mx-auto mt-10">
-        <div class="flex justify-between">
+        <div class="flex flex-col justify-center items-center lg:flex-row  lg:justify-between">
             <div>
                 <img class="w-72 h-7" src="icons/logo.png" alt="">
             </div>
             <div>
-                <ul class="flex gap-x-4">
+                <ul class="flex flex-col lg:flex-row gap-x-4">
                     <li class="text-base font-medium"><a href="">Home</a></li>
                     <li class="text-base font-medium"><a href="">Porduct</a></li>
                     <li class="text-base font-medium"><a href="">About Us</a></li>
@@ -25,15 +25,15 @@
     </header>
     <!-- menu section finished =======================>  -->
     <main class="container mx-auto mt-10">
-        <section class="flex justify-between items-center">
+        <section class="flex flex-col lg:flex-row justify-center items-center  lg:justify-between ">
             <div>
-                <h1 class="text-7xl font-medium"><span class=" text-yellow-500">BE THE PENGUINS<br></span>
+                <h1 class="text-4xl lg:text-7xl font-medium"><span class=" text-yellow-500">BE THE PENGUINS<br></span>
                     OF WINTER</h1>
                 <p class="text-base font-light mt-3">Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</p>
                 <button type="button" class="flex w-40 h-12 bg-lime-700 justify-center items-center rounded-md mt-5"><img class="w-6 h-6" src="icons/shopping-cart 1.png" alt=""><p class="text-base font-normal text-white"> Buy Now</p></button>
 
             </div>
-            <div class="">
+            <div class="mt-11">
                 <img src="images/model.png" alt="">
                
             </div>
@@ -42,13 +42,12 @@
         <!-- ======================third section============> -->
 
         <section class="my-10">
-            <h1 class="text-4xl">W0Man Jacket</h1>
-            <div class="grid grid-cols-3 justify-center items-center mt-10">
-                <div class="w-80 h-96">
+            <h1 class="text-4xl text-center lg:text-left">W0Man Jacket</h1>
+            <div class="grid grid-cols-1 gap-52 lg:grid-cols-3 justify-center items-center mt-10 justify-items-center">
+                <div class="w-80 h-96 ">
                     <img class="w-72 h-72" src="images/jacket-1.png" alt="">
                     <h3 class="text-2xl font-bold my-3">Yellow Coat Jacket </h3>
-                    <p class="text-base font-medium">Lorem Ipsum is simply dummy text of the<br> 
-                        printing and typesetting industry.</p>
+                    <p class="text-base font-medium">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
                     <div class="flex justify-between items-center mt-3">
                         <p class="text-4xl text-yellow-500">$234</p>
                         <button type="button" class="flex w-40 h-12 bg-lime-700 justify-center items-center rounded-md mt-5"><img class="w-6 h-6" src="icons/shopping-cart 1.png" alt=""><p class="text-base font-normal text-white"> Buy Now</p></button>
@@ -81,9 +80,9 @@
 
 
         <!-- 4th sectiom -->
-        <section class="mt-60">
+        <section class="my-60">
             <h1 class="text-4xl">Man Jacket</h1>
-            <div class="grid grid-cols-3 mt-10">
+            <div class="grid grid-cols-1 gap-32 lg:grid-cols-3 mt-10 justify-items-center">
                 <div class="w-80 h-96">
                     <img class="w-72 h-72" src="images/jacket-1.png" alt="">
                     <h3 class="text-2xl font-bold my-3">Yellow Coat Jacket </h3>
@@ -116,6 +115,36 @@
                         <button type="button" class="flex w-40 h-12 bg-lime-700 justify-center items-center rounded-md mt-5"><img class="w-6 h-6" src="icons/shopping-cart 1.png" alt=""><p class="text-base font-normal text-white"> Buy Now</p></button>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="flex gap-20  lg:gap-96 flex-col lg:flex-row items-center">
+            <div>
+                <div class="flex-col lg:flex  gap-x-5 ">
+                    <img class="w-20 h-20" src="icons/house.png" alt="">
+                    <div>
+                        <h1 class="text-xl font-bold">Find the Perfect Fit</h1>
+                        <p class="text-base font-medium">Everybody is different, which is why we<br>offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="flex-col lg:flex  gap-x-5 mt-5">
+                    <img class="w-20 h-20" src="icons/house.png" alt="">
+                    <div>
+                        <h1 class="text-xl font-bold">Find the Perfect Fit</h1>
+                        <p class="text-base font-medium">Everybody is different, which is why we<br>offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="flex-col lg:flex  gap-x-5 mt-5">
+                    <img class="w-20 h-20" src="icons/house.png" alt="">
+                    <div>
+                        <h1 class="text-xl font-bold">Find the Perfect Fit</h1>
+                        <p class="text-base font-medium">Everybody is different, which is why we<br>offer styles for every body.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="W-96 h-96" src="images/shopping.png" alt="">
+
             </div>
         </section>
 
